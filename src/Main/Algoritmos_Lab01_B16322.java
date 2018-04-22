@@ -149,7 +149,7 @@ public class Algoritmos_Lab01_B16322 {
 
         // Print  element and position
         int position = doublyLinkedEmployeeList.getPosition(privateEmployeeA);
-        System.out.println("The worker private a  is on the position: " + position);
+        System.out.println("The worker private A  is on the position: " + position);
         PrivateEmployee privateEmployeeData = (PrivateEmployee) doublyLinkedEmployeeList.getNode(position);
         System.out.println("Data of worker private a, are: " + privateEmployeeData.toString() + " -Name: " + privateEmployeeData.getName() + " -DNI: " + privateEmployeeData.getDni());
         doublyLinkedEmployeeList.delete(publicEmployeeC);
