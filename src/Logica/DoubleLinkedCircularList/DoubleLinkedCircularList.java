@@ -198,14 +198,5 @@ public class DoubleLinkedCircularList implements List {
         }
         return auxNode.element;
     }
-    
-      public Object lastF() throws ListException {
-        int position = getSize() - 1;
-        if (isEmpty()) {
-            throw new ListException("La lista esta vacia");
-        } else {
-            return getNode(position);
-        }
-    }
 
 }
