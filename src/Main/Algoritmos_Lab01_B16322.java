@@ -137,7 +137,15 @@ public class Algoritmos_Lab01_B16322 {
         System.out.println("Fist element: " + doublyLinkedEmployeeList.first().toString());
         System.out.println("Last element: " + doublyLinkedEmployeeList.last().toString() + "\n");
 
-
+//        System.out.println("Get position privateEmployeeB: " + doublyLinkedEmployeeList.getPosition(privateEmployeeB));
+//        PublicEmployee invalidCase = publicEmployeeA;
+//        invalidCase.setName("Invalid Employee");
+//        invalidCase.setAddress("Invalid Employee");
+//        invalidCase.setContractType("Invalid Employee");
+//        invalidCase.setPhone("Invalid Employee");
+//        invalidCase.setDni("Invalid Employee");
+//        invalidCase.setSalaryPerHour(-1);
+//        invalidCase.setWorkedHours(-1);
 
         // Print  element and position
         int position = doublyLinkedEmployeeList.getPosition(privateEmployeeA);
