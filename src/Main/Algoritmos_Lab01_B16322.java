@@ -12,6 +12,7 @@ import Logica.LinkedList.LinkedList;
 import Exceptions.ListException;
 import Logica.DoubleLinkedCircularList.DoubleLinkedCircularList;
 import Logica.DoublyLinkedList.DoublyLinkedList;
+import javax.swing.JOptionPane;
 
 /**
  * @version1.0
@@ -30,6 +31,7 @@ public class Algoritmos_Lab01_B16322 {
     }
 
     private static void testLab1() throws ListException {
+        JOptionPane.showMessageDialog(null, "Test commit/push");
         System.out.println("\n\n*************");
         System.out.println("*LINKED LIST*");
         System.out.println("*************\n\n");
